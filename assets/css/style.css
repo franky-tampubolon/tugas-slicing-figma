@@ -1,0 +1,179 @@
+html, body{
+    font-family: 'Lexend', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    /* background-color: gray; */
+}
+
+.header{
+    position: relative;
+}
+
+.img-blur{
+    position: absolute;
+    top: -162px;
+    left: -173px;
+    width: 80%;
+
+}
+
+nav{
+    z-index: 5;
+}
+
+.hero-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    width: 55%;
+    height: 100vh;
+}
+
+.p-0{
+    display: flex;
+    position: absolute;
+    left: 50%;
+
+}
+
+.btn-gray{
+    border: solid 1px #888B97;
+    color: #888B97;
+}
+
+.btn-transparent{
+    border: solid 1px #FFFFFF;
+    background-color: transparent;
+    color: #F0F3FD;
+}
+
+.btn-sign-up{
+    margin-left: 80px;
+    background-color: #D1FAE5;
+    color: #047857;
+    font-weight: 700;
+}
+
+.text-transparent{
+    font-weight: 700;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    color: white;
+}
+
+.hero-left{
+    width: 40%;
+}
+
+.heading-hero{
+    margin-top: 60px;
+    max-width: 400px;
+    font-weight: 700;
+    line-height: 50px;
+    word-spacing: 10px;
+    font-size: 40px;
+    color: #1B1C57;
+}
+
+.text-hero{
+    font-size: 16px;
+    color: #626687;
+    line-height: 28px;
+    margin-top: 24px;
+    /* max-width: 400px; */
+}
+
+.form-search{
+    margin-top: 32px;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    border: solid 1px #E0E3EB;
+}
+
+.btn-search{
+    margin-left: 80px;
+    background-color: #10B981;
+    color: white;
+}
+
+.partnership{
+    color: #888B97;
+    margin-top: 32px;
+    font-size: 16px;
+}
+
+.partner-icon{
+    /* display: flex; */
+    margin: 0 40px 0 0;
+    width: 80px;
+}
+
+.feature{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 240px;
+}
+
+.text-yellow{
+    color: #F59E0B;
+}
+.feature-header{
+    position: absolute;
+    top: 20px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    /* MRT App / Headline */
+
+    color: #1B1C57;
+}
+
+.category{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 493px;
+    top: 30px;
+    left: 20em;
+}
+
+.list-category{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.item-category{
+    margin: 0 20px;
+}
+
+.flex-menu{
+    display: flex;
+}
+
+span{
+    padding-left: 6px;
+}
+
+.feature-page{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 70%;
+}
+
+.feature-page > button{
+    margin: 0 5px;
+    width: 40px;
+}
